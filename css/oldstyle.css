@@ -1,0 +1,44 @@
+#topTitle {
+	background-image: url("http://apps.npr.org/best-books-2017/assets/img/covers.jpg");
+	color: red;
+	padding: 20px;
+	margin-bottom: 10px;
+	height: 200px;
+}
+
+#mt {
+	color: black;
+}
+
+body {
+	font-family: 'Palatino', 'Arial', sans-serif;
+}
+
+div[class*="col"] {
+    height: 300px;
+    background-color: grey;
+}
+
+.container {
+	background-color: grey;
+}
+
+#mov {
+	padding: 2em;
+}
+
+#book {
+	padding: 2em;
+}
+
+#mus {
+	padding: 2em;
+}
+
+.vid {
+	padding: 5px;
+	background: lightpink;
+	height: 250px;
+	margin-top: 0.6em;
+	padding-bottom: 20px;
+}
