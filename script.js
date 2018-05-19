@@ -118,10 +118,10 @@ document.write("</div>");
 document.write("</div>");
 
 
-// CREATE ROWS AND COLUMNS; FOR LOOPS TO PRINT VALUES FROM ARRAY //
+// CREATE ROWS AND COLUMNS; FOR LOOPS TO PRINT VALUES FROM ARRAYS //
 
 // MOVIES //
-document.write("<h2>" + "Movies" + "</h2>");
+document.write("<h1>" + "Movies" + "</h1>");
 document.write("<hr>");
 document.write("<div id=\"mov\" class=\"row\">");
 
@@ -135,7 +135,7 @@ for (var i = 0; i < movies.length; i++) {
         document.write("<span>" + '&starf;' + "</span>");
     }
 
-    // OPEN DETAILS ON HOVER //
+    // OPEN DETAILS ON CLICK //
     document.write("<br></br>");
     document.write("<div class=\"popup\">");
     document.write("<label>"+"Details"+"</label>");
@@ -146,7 +146,7 @@ for (var i = 0; i < movies.length; i++) {
 document.write("</div>");
 
 // BOOKS //
-document.write("<h2>" + "Books" + "</h2>");
+document.write("<h1>" + "Books" + "</h1>");
 document.write("<hr>");
 document.write("<div id=\"book\" class=\"row\">");
 
@@ -160,7 +160,7 @@ for (var i = 0; i < books.length; i++) {
         document.write("<span>" + '&starf;' + "</span>");
     }
 
-    // OPEN DETAILS ON HOVER //
+    // OPEN DETAILS ON CLICK //
     document.write("<br></br>");
     document.write("<div class=\"popup\">");
     document.write("<label>"+"Details"+"</label>");
@@ -172,7 +172,7 @@ for (var i = 0; i < books.length; i++) {
 document.write("</div>");
 
 // MUSIC
-document.write("<h2>" + "Music" + "</h2>");
+document.write("<h1>" + "Music" + "</h1>");
 document.write("<hr>");
 document.write("<div id=\"mus\" class=\"row\">");
 
@@ -187,7 +187,7 @@ for (var i = 0; i < music.length; i++) {
         document.write("<span>" + '&starf;' + "</span>");
     }
 
-    // OPEN DETAILS ON HOVER //
+    // OPEN DETAILS ON CLICK //
     document.write("<br></br>");
     document.write("<div class=\"popup\">");
     document.write("<label>"+"Details"+"</label>");
